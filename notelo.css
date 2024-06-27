@@ -2177,6 +2177,7 @@ strong {
   align-items: center;
   height: 80px;
   display: flex;
+  position: fixed;
   top: 0%;
   bottom: auto;
   left: 0%;
