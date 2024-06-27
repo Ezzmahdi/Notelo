@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Notelo: The AI Research Assistant</title>
+        <meta content="Use AI to search, summarize, extract data from, and chat with millions of papers. Used researchers in academia and industry." name="description"/>
+        <meta content="Notelo: The AI Research Assistant" property="og:title"/>
+        <meta content="Use AI to search, summarize, extract data from, and chat with chat with millions of papers. Used researchers in academia and industry." property="og:description"/>
+        <meta content="./notelo-bigicon.png" property="og:image"/>
+        <meta content="Notelo: The AI Research Assistant" property="twitter:title"/>
+        <meta content="Use AI to search, summarize, extract data from, and chat with chat with millions of papers. Used researchers in academia and industry." property="twitter:description"/>
+        <meta content="./notelo-bigicon.png" property="twitter:image"/>
+        <meta property="og:type" content="website"/>
+        <meta content="summary_large_image" name="twitter:card"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link href="./icon.jpg" rel="apple-touch-icon"/>
+        <link rel="stylesheet" href="./notelo.css">
+        <link rel="icon" type="image/jpg" href="./icon.jpg">
+        <style>
+            .nav-menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            .nev-left {
+                display: flex;
+            }
+
+            .nav-right {
+                display: flex;
+            }
+        </style>
+    </head>
+    <body class="body-2">
+        <div class="page-wrapper">
+            <div class="nav w-nav">
+                <div class="container nav-container">
+                    <nav role="navigation" class="nav-menu w-nav-menu">
+                        <a href="/" aria-current="page" class="w-nav-brand w--current">
+                            <img src="./notelo-bigicon.png" loading="lazy" alt="" class="logo" style="height: 150px; width: auto; margin-top: 5px;"/>
+                        </a>
+                        <div class="nev-left">
+                            
+                        </div>
+                        <div class="nav-right">
+                            <!-- <a href="" class="nav-link sign-in w-nav-link">Join Waitlist</a> -->
+                            <a href="https://airtable.com/appRjLwbJKK42GXmb/pagoCSeXF2a0wrBlA/form" target="_blank" class="button w-inline-block">
+                                <div class="text-block-6">Join Waitlist</div>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="w-nav-button">
+                        <div class="w-icon-nav-menu"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-slider-mask">
+                <div class="w-slide">
+                    <div class="hero-section">
+                        <div class="hero-content">
+                            <h1 class="hero-heading">
+                                Analyze research papers at <span class="text-span-2">superhuman speed</span>
+                            </h1>
+                            <div class="hero-subheading">
+                                End research headaches: Let AI handle summarizing, extracting data, and organizing papers at superhuman speed.<br/>
+                            </div>
+                            <div class="buttons-row">
+                                <a href="https://airtable.com/appRjLwbJKK42GXmb/pagoCSeXF2a0wrBlA/form" target="_blank" class="button cta-button w-inline-block">
+                                    <div class="text-block-4">Join Waitlist</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg-video-wrapper">
+                            <div class="green-gradient"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div id="Features">
+                <div class="section overflow">
+                    <div class="container flex" style="display: flex;">
+                        <div class="half-side left"  style="flex: 1;">
+                            <div class="div-block-10">
+                                <div class="label">Discovery</div>
+                                <div>
+                                    <h2 class="section-heading">Upload papers and lectures</h2>
+                                    <div class="section-subheading">
+                                        Effortlessly transform lectures and papers into organized, editable notes with a single click<br/>
+                                    </div>
+                                </div>
+                                <div class="feature-block">
+                                    <div class="feature-icon-wrap">
+                                        <div class="feature-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M11 5V15H9V11C7.93913 11 6.92172 10.5786 6.17157 9.82843C5.42143 9.07828 5 8.06087 5 7C5 5.93913 5.42143 4.92172 6.17157 4.17157C6.92172 3.42143 7.93913 3 9 3H17V5H15V15H13V5H11ZM9 5C8.46957 5 7.96086 5.21071 7.58579 5.58579C7.21071 5.96086 7 6.46957 7 7C7 7.53043 7.21071 8.03914 7.58579 8.41421C7.96086 8.78929 8.46957 9 9 9V5ZM17 17V14.5L21 18L17 21.5V19H5V17H17Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-heading">
+                                        Click on "generate" to create organized notes and summaries.<br/>
+                                    </h3>
+                                </div>
+                                <div class="feature-block">
+                                    <div class="feature-icon-wrap">
+                                        <div class="feature-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M15 4H5V20H19V8H15V4ZM3 2.992C3 2.444 3.447 2 3.999 2H16L21 7V20.993C21.0009 21.1243 20.976 21.2545 20.9266 21.3762C20.8772 21.4979 20.8043 21.6087 20.7121 21.7022C20.6199 21.7957 20.5101 21.8701 20.3892 21.9212C20.2682 21.9723 20.1383 21.9991 20.007 22H3.993C3.73038 21.9982 3.47902 21.8931 3.29322 21.7075C3.10742 21.5219 3.00209 21.2706 3 21.008V2.992ZM13.529 14.446C12.6903 14.936 11.7021 15.1043 10.7485 14.9195C9.79488 14.7346 8.94106 14.2093 8.34623 13.4414C7.75139 12.6735 7.45614 11.7154 7.51553 10.7459C7.57492 9.77639 7.98489 8.86156 8.669 8.172C9.35745 7.48368 10.2733 7.07006 11.2449 7.00865C12.2165 6.94725 13.1771 7.24228 13.9467 7.83845C14.7163 8.43463 15.2421 9.29101 15.4255 10.2471C15.6089 11.2032 15.4374 12.1934 14.943 13.032L17.153 15.242L15.739 16.657L13.529 14.447V14.446ZM12.911 12.414C13.102 12.2295 13.2544 12.0088 13.3592 11.7648C13.464 11.5208 13.5192 11.2584 13.5215 10.9928C13.5238 10.7272 13.4732 10.4639 13.3726 10.2181C13.2721 9.9723 13.1236 9.749 12.9358 9.56121C12.748 9.37342 12.5247 9.22492 12.2789 9.12436C12.0331 9.02379 11.7698 8.97319 11.5042 8.9755C11.2386 8.97781 10.9762 9.03298 10.7322 9.1378C10.4882 9.24262 10.2675 9.39498 10.083 9.586C9.71868 9.9632 9.5171 10.4684 9.52165 10.9928C9.52621 11.5172 9.73655 12.0188 10.1074 12.3896C10.4782 12.7605 10.9798 12.9708 11.5042 12.9753C12.0286 12.9799 12.5338 12.7783 12.911 12.414V12.414Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-heading">
+                                        Review notes and make any necessary edits.<br/>
+                                    </h3>
+                                </div>
+                                <div class="feature-block">
+                                    <div class="feature-icon-wrap">
+                                        <div class="feature-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4 8H20V5H4V8ZM14 19V10H10V19H14ZM16 19H20V10H16V19ZM8 19V10H4V19H8ZM3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V20C22 20.2652 21.8946 20.5196 21.7071 20.7071C21.5196 20.8946 21.2652 21 21 21H3C2.73478 21 2.48043 20.8946 2.29289 20.7071C2.10536 20.5196 2 20.2652 2 20V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3V3Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-heading">
+                                        Save or export the notes for future use.<br/>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="half-side right"  style="flex: 1;">
+                            <div class="div-block-11">
+                                <div class="label">Synthesis</div>
+                                <h2 class="section-heading">Extract key points and themes from lectures.</h2>
+                                <div class="section-subheading">
+                                    organizing notes into clear and concise summaries. Identify and highlight important concepts and details, and combine multiple lecture notes to find overarching themes and concepts. Get a synthesized summary of lecture content across different sessions or subjects.<br/>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            <div class="section less-top">
+                <div class="container">
+                    <div class="section-header-wrap">
+                        <div class="label">Features</div>
+                        <h2 class="section-heading">Tons of features to speed up your research</h2>
+                    </div>
+                    <div class="features-cards">
+                        <div class="feature-card-block">
+                            <div data-w-id="a6041903-efde-fbac-57f1-c835a53656db" class="feature-cards">
+                                <div style="border-color:rgb(235,236,237)" class="upload-outline">
+                                    <div class="pdf-icon">
+                                        <div class="upload-icon w-embed">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+                                                <path d="M248,128a87.34,87.34,0,0,1-17.6,52.81,8,8,0,1,1-12.8-9.62A71.34,71.34,0,0,0,232,128a72,72,0,0,0-144,0,8,8,0,0,1-16,0,88,88,0,0,1,3.29-23.88C74.2,104,73.1,104,72,104a48,48,0,0,0,0,96H96a8,8,0,0,1,0,16H72A64,64,0,1,1,81.29,88.68,88,88,0,0,1,248,128Zm-90.34-5.66a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L144,147.31V208a8,8,0,0,0,16,0V147.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="drag-text">Drag and drop PDFs here</div>
+                                    <div class="click-to-browse">or click to browse</div>
+                                    <div class="uploaded-doc-graphic">
+                                        <div class="document-icon white w-embed">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+                                                <path d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="text-block-13">physics.pdf</div>
+                                        <img src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/65170b9ffe2476bf79d172ec_closedhand.svg" loading="lazy" alt="" class="grab-hand"/>
+                                    </div>
+                                    <div style="opacity:0" class="upload-bg"></div>
+                                </div>
+                                <div class="uploaded-document">
+                                    <div class="align-row">
+                                        <div class="document-icon w-embed">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+                                                <path d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="text-block-14">chemistry.pdf</div>
+                                    </div>
+                                    <div class="close-icon w-embed">
+                                        <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.0002 10.586L16.9502 5.63599L18.3642 7.04999L13.4142 12L18.3642 16.95L16.9502 18.364L12.0002 13.414L7.05023 18.364L5.63623 16.95L10.5862 12L5.63623 7.04999L7.05023 5.63599L12.0002 10.586Z" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="uploaded-document">
+                                    <div class="align-row">
+                                        <div class="document-icon w-embed">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+                                                <path d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z"></path>
+                                            </svg>
+                                        </div>
+                                        <div>Biology.pdf</div>
+                                    </div>
+                                    <div class="close-icon w-embed">
+                                        <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.0002 10.586L16.9502 5.63599L18.3642 7.04999L13.4142 12L18.3642 16.95L16.9502 18.364L12.0002 13.414L7.05023 18.364L5.63623 16.95L10.5862 12L5.63623 7.04999L7.05023 5.63599L12.0002 10.586Z" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <h3 class="card-heading">
+
+                                    Upload your own PDFs<br/>
+                                </h3>
+                            </div>
+                        </div>
+                        <div data-w-id="c9ddbd33-26a5-3631-b928-8574c682a1ef" class="feature-card-block">
+                            <div data-w-id="c9ddbd33-26a5-3631-b928-8574c682a1f0" class="feature-cards quick-summary">
+                                <h3 class="card-heading">
+                                    Quick summary for your Lectures<br/>
+                                </h3>
+                                <div class="how-to-improve-page">
+                                    <div class="search-row">
+                                        <div class="search-circle">
+                                            <div class="search-icon w-embed">
+                                                <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M18.031 16.617L22.314 20.899L20.899 22.314L16.617 18.031C15.0237 19.3082 13.042 20.0029 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20.0029 13.042 19.3082 15.0237 18.031 16.617ZM16.025 15.875C17.2941 14.5699 18.0029 12.8204 18 11C18 7.132 14.867 4 11 4C7.132 4 4 7.132 4 11C4 14.867 7.132 18 11 18C12.8204 18.0029 14.5699 17.2941 15.875 16.025L16.025 15.875V15.875Z" fill="currentColor"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="text-block-2">What is photon superposition?</div>
+                                    </div>
+                                    <div class="mock-paper-text">
+                                        Photon superposition is a fundamental concept in quantum mechanics where a photon, the basic unit of light, exists simultaneously in multiple states or modes until it is measured. (<span class="text-span-4">APS Link</span>
+                                        ). his means that a photon can exhibit different properties, such as being in multiple locations or having different polarizations, at the same time. (<span class="text-span-3">ar5iv</span>)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-card-block">
+                            <div data-w-id="295f4bbc-56a4-d6ea-6600-b522f8e43d03" class="feature-cards view-sources">
+                                <h3 class="card-heading">
+                                    View sources for every answer<br/>
+                                </h3>
+                                <div class="source-quotes">
+                                    <div class="sources-top">
+                                        <div class="left-align-row">
+                                            <div class="text-block">Source Quotes</div>
+                                            <div class="arrows-row">
+                                                <div class="arrow-circle">
+                                                    <div class="toggle-arrow-icon w-embed">
+                                                        <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M10.828 12L15.778 16.95L14.364 18.364L8 12L14.364 5.63599L15.778 7.04999L10.828 12Z" fill="currentColor"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="_1of2">
+                                                    1 <span class="of-mid">of</span>
+                                                    2
+                                                </div>
+                                                <div class="arrow-circle">
+                                                    <div class="toggle-arrow-icon w-embed">
+                                                        <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13.1722 12L8.22217 7.04999L9.63617 5.63599L16.0002 12L9.63617 18.364L8.22217 16.95L13.1722 12Z" fill="currentColor"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right-align-row">
+                                            <div class="open-paper-button">
+                                                <div class="text-block-15">Open paper</div>
+                                                <div class="diagonal-arrow-icon w-embed">
+                                                    <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M16.0039 9.414L7.39691 18.021L5.98291 16.607L14.5889 8H7.00391V6H18.0039V17H16.0039V9.414V9.414Z" fill="currentColor"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="close-x-icon w-embed">
+                                                <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12.0002 10.586L16.9502 5.63599L18.3642 7.04999L13.4142 12L18.3642 16.95L16.9502 18.364L12.0002 13.414L7.05023 18.364L5.63623 16.95L10.5862 12L5.63623 7.04999L7.05023 5.63599L12.0002 10.586Z" fill="currentColor"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-mock">
+                                        <div style="opacity:0" class="mock-results-text">
+                                            “A meta-analysis of 30 randomized, double-blind, placebo-controlled trials concluded that fish oil consumption can significantly reduce heart rate (<span class="text-span-5">Mozaffarian 2005</span>
+                                            ). In particular, the effect was greater in people whose baseline heart rate was higher: in the overall pooled estimate, fish oil decreased heart rate by 1.6 bpm compared to placebo, but reduced heart rate by 2.5 bpm in trials with a median baseline heart rate of ≥ 69 bpm. Furthermore, the ability of fish oil to reduce heart rate appeared to depend on the length of treatment.
+                                        </div>
+                                        <div class="top-gradient bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-card-block">
+                            <div data-w-id="395c37b5-50d3-9c6e-75bb-98167c6fcec5" class="feature-cards stacked">
+                                <h3 class="card-heading">
+                                    Ask questions to papers<br/>
+                                </h3>
+                                <div class="ask-question-text">
+                                    <div class="prod-mock-card">
+                                        <div class="ask-question">Ask a question</div>
+                                        <div class="form-field">
+                                            <div class="search-term">What was the equation used?</div>
+                                            <div style="opacity:0.1" class="go-arrow-block">
+                                                <div class="go-arrow-icon w-embed">
+                                                    <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M16.172 10.9999L10.808 5.63592L12.222 4.22192L20 11.9999L12.222 19.7779L10.808 18.3639L16.172 12.9999H4V10.9999H16.172Z" fill="currentColor"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mock-search-text">In the research paper discussing high photon number entangled states and coherent state superposition, several equations are used to describe the states and transformations involved. One of the key equations is:
+
+                                        ∣
+                                        Ψ
+                                        ⟩
+                                        =
+                                        ∑
+                                        𝑛
+                                        =
+                                        0
+                                        ∞
+                                        𝑐
+                                        𝑛
+                                        ∣
+                                        𝑛
+                                        ⟩
+                                        ∣Ψ⟩=∑ 
+                                        n=0
+                                        ∞
+                                        ​
+                                         c 
+                                        n
+                                        ​
+                                         ∣n⟩
+                                        
+                                        This represents the superposition of photon number states, wherecn are the coefficients that describe the probability amplitudes of having n photons in the state.</div>
+                                </div>
+                                <div class="top-gradient bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Pricing" class="section white down">
+                <div class="container pull-down">
+                    <div class="section-header-wrap">
+                        <div class="label">Pricing</div>
+                        <h2 class="section-heading">Pick a plan that &#x27;s right for you</h2>
+                        <!-- <div class="toggle-wrapper">
+                            <p class="text-color-neutral-800 mg-bottom-0px">Monthly</p>
+                            <div data-w-id="e2b17808-6890-fb75-042a-8de07bf9133f" class="toggle">
+                                <div class="toggle-bullet"></div>
+                            </div>
+                            <p class="text-color-neutral-800 mg-bottom-0px">Annually</p>
+                        </div> -->
+                    </div>
+                    <div class="pricing-row">
+                        <div class="modal">
+                            <div class="div-block-19">
+                                <h1 class="heading-6">Get in touch</h1>
+                                <div data-w-id="897df704-e955-ff03-f05f-ce4a02f74981" class="close-button">
+                                    <img loading="lazy" src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/65cf64b28578d2d836acba3a_655676bbc2d23fa4f309c084_X.svg" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-column">
+                            <a href="" class="pricing-card w-inline-block">
+                                <div class="pricing-card-wrap">
+                                    <h3 class="card-heading pricing">Basic</h3>
+                                    <div class="pricing-subheading">Explore what Notelo has to offer for free</div>
+                                    <div class="price-row">
+                                        <h3 class="card-heading price">$0</h3>
+                                    </div>
+                                    <div class="credits">
+                                        <div class="coins-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 4C18.075 4 23 6.686 23 10V14C23 17.314 18.075 20 12 20C6.033 20 1.176 17.409 1.005 14.177L1 14V10C1 6.686 5.925 4 12 4ZM12 16C8.28 16 4.99 14.993 3 13.45V14C3 15.882 6.883 18 12 18C17.01 18 20.838 15.97 20.995 14.118L21 14L21.001 13.45C19.011 14.992 15.721 16 12 16ZM12 6C6.883 6 3 8.118 3 10C3 11.882 6.883 14 12 14C17.117 14 21 11.882 21 10C21 8.118 17.117 6 12 6Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <strong>20 queries</strong>
+                                            per day
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            AI Research Assistant<br/>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>Extract data from papers and lectures</div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>Find concepts across lectures</div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>Reference Manager</div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>Save results and notes to review later</div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon x w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.0002 10.586L16.9502 5.63599L18.3642 7.04999L13.4142 12L18.3642 16.95L16.9502 18.364L12.0002 13.414L7.05023 18.364L5.63623 16.95L10.5862 12L5.63623 7.04999L7.05023 5.63599L12.0002 10.586Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>Advanced AI models (GPT-4, GPT-4o, Claude 3.5 Sonnet)</div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon x w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.0002 10.586L16.9502 5.63599L18.3642 7.04999L13.4142 12L18.3642 16.95L16.9502 18.364L12.0002 13.414L7.05023 18.364L5.63623 16.95L10.5862 12L5.63623 7.04999L7.05023 5.63599L12.0002 10.586Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>Bring your own key</div>
+                                    </div>
+                                </div>
+                                <div class="pricing-card-wrap">
+                                    <figure class="button price-button outline">
+                                        <div>Try for free</div>
+                                    </figure>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="pricing-column featurecol">
+                            <a href="" class="pricing-card active w-inline-block">
+                                <div class="pricing-card-wrap">
+                                    <h3 class="card-heading pricing">Plus</h3>
+                                    <div class="pricing-subheading">For individuals ready to speed up their research process</div>
+                                    <div class="price-row annualprice">
+                                        <h3 id="plus-price" class="card-heading price">$10</h3>
+                                        <div id="plus-text" class="price-context">
+                                            per month, billed annually<br/>
+                                            $120 per year<br/>
+                                        </div>
+                                    </div>
+                                    <div class="credits">
+                                        <div class="coins-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 4C18.075 4 23 6.686 23 10V14C23 17.314 18.075 20 12 20C6.033 20 1.176 17.409 1.005 14.177L1 14V10C1 6.686 5.925 4 12 4ZM12 16C8.28 16 4.99 14.993 3 13.45V14C3 15.882 6.883 18 12 18C17.01 18 20.838 15.97 20.995 14.118L21 14L21.001 13.45C19.011 14.992 15.721 16 12 16ZM12 6C6.883 6 3 8.118 3 10C3 11.882 6.883 14 12 14C17.117 14 21 11.882 21 10C21 8.118 17.117 6 12 6Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <strong>Unlimited queries</strong>
+                                            per month
+                                        </div>
+                                    </div>
+                                    <div class="pricing-label">Everything in basic and...</div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            Advanced AI models (GPT-4, GPT-4o, Claude 3.5 Sonnet)<br/>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            High accuracy mode<br/>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            Summarize up to 8 lectures per day<br/>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            Chat with the full text of papers<br/>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            Extract information from tables in papers<br/>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            Priority customer support<br/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pricing-card-wrap">
+                                    <div class="button price-button">
+                                        <div>Sign up</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="" class="pricing-column w-inline-block">
+                            <div class="pricing-card">
+                                <div class="pricing-card-wrap">
+                                    <h3 class="card-heading pricing">Enterprise and Institutions</h3>
+                                    <div class="pricing-subheading">For teams, companies, and educational institutions</div>
+                                    <div class="price-row">
+                                        <h3 class="card-heading price custom">Custom pricing</h3>
+                                    </div>
+                                    <div class="credits">
+                                        <div class="coins-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 4C18.075 4 23 6.686 23 10V14C23 17.314 18.075 20 12 20C6.033 20 1.176 17.409 1.005 14.177L1 14V10C1 6.686 5.925 4 12 4ZM12 16C8.28 16 4.99 14.993 3 13.45V14C3 15.882 6.883 18 12 18C17.01 18 20.838 15.97 20.995 14.118L21 14L21.001 13.45C19.011 14.992 15.721 16 12 16ZM12 6C6.883 6 3 8.118 3 10C3 11.882 6.883 14 12 14C17.117 14 21 11.882 21 10C21 8.118 17.117 6 12 6Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div>Supports heavy queries per hour</div>
+                                    </div>
+                                    <div class="pricing-label">Everything in basic and...</div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div class="text-block-7">
+                                            Share credits across your organization<br/>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div class="text-block-8">
+                                            Invoice-based billing<br/>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-stat-row">
+                                        <div class="price-icon w-embed">
+                                            <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 15.172L19.1922 5.979L20.6072 7.393L10.0002 18L3.63623 11.636L5.05023 10.222L10.0002 15.172Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div class="text-block-9">
+                                            Top priority customer support<br/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pricing-card-wrap">
+                                    <address class="button price-button outline">
+                                        <div class="text-block-16">Contact us</div>
+                                    </address>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section dark bottom">
+                <div class="container">
+                    <div class="section-header-wrap">
+                        <h2 class="section-heading dark">How accurate is Notelo?</h2>
+                        <div class="section-subheading dark">
+                            Notelo uses language models to extract data from and summarize research papers and lectures. As a new technology, language models sometimes make up inaccurate answers.<br/>
+                        </div>
+                        <div class="section-subheading dark caps">
+                            We improve accuracy by:<br/>
+                        </div>
+                    </div>
+                    <div class="callout-row">
+                        <div class="callout-block">
+                            <div class="iconcirlce">
+                                <div class="circleicon w-embed">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+                                        <path d="M248,124a56.11,56.11,0,0,0-32-50.61V72a48,48,0,0,0-88-26.49A48,48,0,0,0,40,72v1.39a56,56,0,0,0,0,101.2V176a48,48,0,0,0,88,26.49A48,48,0,0,0,216,176v-1.41A56.09,56.09,0,0,0,248,124ZM88,208a32,32,0,0,1-31.81-28.56A55.87,55.87,0,0,0,64,180h8a8,8,0,0,0,0-16H64A40,40,0,0,1,50.67,86.27,8,8,0,0,0,56,78.73V72a32,32,0,0,1,64,0v68.26A47.8,47.8,0,0,0,88,128a8,8,0,0,0,0,16,32,32,0,0,1,0,64Zm104-44h-8a8,8,0,0,0,0,16h8a55.87,55.87,0,0,0,7.81-.56A32,32,0,1,1,168,144a8,8,0,0,0,0-16,47.8,47.8,0,0,0-32,12.26V72a32,32,0,0,1,64,0v6.73a8,8,0,0,0,5.33,7.54A40,40,0,0,1,192,164Zm16-52a8,8,0,0,1-8,8h-4a36,36,0,0,1-36-36V80a8,8,0,0,1,16,0v4a20,20,0,0,0,20,20h4A8,8,0,0,1,208,112ZM60,120H56a8,8,0,0,1,0-16h4A20,20,0,0,0,80,84V80a8,8,0,0,1,16,0v4A36,36,0,0,1,60,120Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3 class="card-heading alt">Training our models on specific tasks</h3>
+                            <div class="block-text">
+                                We fine-tune our models on a per-task basis and constantly iterate to make them more accurate.<br/>
+                            </div>
+                        </div>
+                        <div data-w-id="0bf7e5d6-84e8-94e6-3a22-07bc97269a92" class="callout-block">
+                            <div class="iconcirlce">
+                                <div class="circleicon w-embed">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256">
+                                        <path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3 class="card-heading alt">Searching over academic papers</h3>
+                            <div class="block-text">
+                                Notelo only uses papers that actually exist and are part of the scientific literature.<br/>
+                            </div>
+                        </div>
+                        <div class="callout-block">
+                            <div class="iconcirlce">
+                                <div class="circleicon w-embed">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" viewBox="0 0 256 256">
+                                        <path d="M149.61,85.71l-89.6,88a8,8,0,0,1-11.22,0L10.39,136a8,8,0,1,1,11.22-11.41L54.4,156.79l84-82.5a8,8,0,1,1,11.22,11.42Zm96.1-11.32a8,8,0,0,0-11.32-.1l-84,82.5-18.83-18.5a8,8,0,0,0-11.21,11.42l24.43,24a8,8,0,0,0,11.22,0l89.6-88A8,8,0,0,0,245.71,74.39Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h3 class="card-heading alt">Making it easy to double-check answers</h3>
+                            <div class="block-text">
+                                We make it easy for you to view the original source and point to where in a paper specific information came from.<br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Testimonials" class="section dark cta">
+                <div class="container cta-container">
+                    <div class="section-header-wrap wide">
+                        <h2 class="section-heading cta">
+                            Save time, think more.<br/>
+                            Try Notelo for free.<br/>
+                        </h2>
+                        <a href="" class="button cta-button footerbutton w-inline-block">
+                            <div>Get started</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section footer">
+                <div data-w-id="14365f74-4fbd-3216-b04f-b373e84a46e6" class="container flex">
+                    <div class="left-footer">
+                        <img src="./notelo-bigicon.png" loading="lazy" alt="" class="logo" style="height: 150px; width: auto; margin: 5px; padding: 0px;"/>
+                        <div class="footer-subheading" style="margin-top: 0px;">Automate time-consuming research tasks like summarizing papers and lectures, extracting data, and synthesizing your findings.</div>
+                        <div class="footer-icons">
+                            <a href="https://www.linkedin.com/" target="_blank" class="footer-social w-inline-block">
+                                <div class="social-icon w-embed">
+                                    <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.94043 5.00002C6.94016 5.53046 6.7292 6.03906 6.35394 6.41394C5.97868 6.78883 5.46986 6.99929 4.93943 6.99902C4.409 6.99876 3.90039 6.78779 3.52551 6.41253C3.15062 6.03727 2.94016 5.52846 2.94043 4.99802C2.9407 4.46759 3.15166 3.95899 3.52692 3.5841C3.90218 3.20922 4.411 2.99876 4.94143 2.99902C5.47186 2.99929 5.98047 3.21026 6.35535 3.58552C6.73024 3.96078 6.9407 4.46959 6.94043 5.00002V5.00002ZM7.00043 8.48002H3.00043V21H7.00043V8.48002ZM13.3204 8.48002H9.34043V21H13.2804V14.43C13.2804 10.77 18.0504 10.43 18.0504 14.43V21H22.0004V13.07C22.0004 6.90002 14.9404 7.13002 13.2804 10.16L13.3204 8.48002V8.48002Z" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a href="https://github.com/EzzMahdi" target="_blank" class="footer-social gh w-inline-block">
+                                <div class="social-icon gh w-embed">
+                                    <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C6.475 2 2 6.475 2 12C1.99887 14.0993 2.65882 16.1456 3.88622 17.8487C5.11362 19.5517 6.84615 20.8251 8.838 21.488C9.338 21.575 9.525 21.275 9.525 21.012C9.525 20.775 9.512 19.988 9.512 19.15C7 19.613 6.35 18.538 6.15 17.975C6.037 17.687 5.55 16.8 5.125 16.562C4.775 16.375 4.275 15.912 5.112 15.9C5.9 15.887 6.462 16.625 6.65 16.925C7.55 18.437 8.988 18.012 9.562 17.75C9.65 17.1 9.912 16.663 10.2 16.413C7.975 16.163 5.65 15.3 5.65 11.475C5.65 10.387 6.037 9.488 6.675 8.787C6.575 8.537 6.225 7.512 6.775 6.137C6.775 6.137 7.612 5.875 9.525 7.163C10.3391 6.93706 11.1802 6.82334 12.025 6.825C12.875 6.825 13.725 6.937 14.525 7.162C16.437 5.862 17.275 6.138 17.275 6.138C17.825 7.513 17.475 8.538 17.375 8.788C18.012 9.488 18.4 10.375 18.4 11.475C18.4 15.313 16.063 16.163 13.838 16.413C14.2 16.725 14.513 17.325 14.513 18.263C14.513 19.6 14.5 20.675 14.5 21.013C14.5 21.275 14.688 21.587 15.188 21.487C17.173 20.8168 18.8979 19.541 20.1199 17.8392C21.3419 16.1373 21.9994 14.0951 22 12C22 6.475 17.525 2 12 2Z" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/useNotelo" target="_blank" class="footer-social x w-inline-block">
+                                <div class="social-icon w-embed">
+                                    <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.1623 5.65593C21.3989 5.99362 20.5893 6.2154 19.7603 6.31393C20.634 5.79136 21.288 4.96894 21.6003 3.99993C20.7803 4.48793 19.8813 4.82993 18.9443 5.01493C18.3149 4.34151 17.4807 3.89489 16.5713 3.74451C15.6618 3.59413 14.7282 3.74842 13.9156 4.18338C13.1029 4.61834 12.4567 5.30961 12.0774 6.14972C11.6981 6.98983 11.607 7.93171 11.8183 8.82893C10.1554 8.74558 8.52863 8.31345 7.04358 7.56059C5.55854 6.80773 4.24842 5.75097 3.1983 4.45893C2.82659 5.09738 2.63125 5.82315 2.6323 6.56193C2.6323 8.01193 3.3703 9.29293 4.4923 10.0429C3.82831 10.022 3.17893 9.84271 2.5983 9.51993V9.57193C2.5985 10.5376 2.93267 11.4735 3.54414 12.221C4.15562 12.9684 5.00678 13.4814 5.9533 13.6729C5.33691 13.84 4.6906 13.8646 4.0633 13.7449C4.33016 14.5762 4.8503 15.3031 5.55089 15.824C6.25147 16.3449 7.09743 16.6337 7.9703 16.6499C7.10278 17.3313 6.10947 17.8349 5.04718 18.1321C3.98488 18.4293 2.87442 18.5142 1.7793 18.3819C3.69099 19.6114 5.91639 20.264 8.1893 20.2619C15.8823 20.2619 20.0893 13.8889 20.0893 8.36193C20.0893 8.18193 20.0843 7.99993 20.0763 7.82193C20.8952 7.23009 21.6019 6.49695 22.1633 5.65693L22.1623 5.65593Z" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer-social yt w-inline-block">
+                                <div class="social-icon w-embed">
+                                    <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21.543 6.498C22 8.28 22 12 22 12C22 12 22 15.72 21.543 17.502C21.289 18.487 20.546 19.262 19.605 19.524C17.896 20 12 20 12 20C12 20 6.107 20 4.395 19.524C3.45 19.258 2.708 18.484 2.457 17.502C2 15.72 2 12 2 12C2 12 2 8.28 2.457 6.498C2.711 5.513 3.454 4.738 4.395 4.476C6.107 4 12 4 12 4C12 4 17.896 4 19.605 4.476C20.55 4.742 21.292 5.516 21.543 6.498V6.498ZM10 15.5L16 12L10 8.5V15.5Z" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a href="" target="_blank" class="footer-social slack w-inline-block">
+                                <div class="social-icon w-embed">
+                                    <svg width="420" height="420" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.52677 14.514C6.52493 15.035 6.31707 15.5342 5.94855 15.9025C5.58004 16.2708 5.08079 16.4784 4.55977 16.48C4.03858 16.4784 3.53918 16.2707 3.17064 15.9021C2.8021 15.5336 2.59436 15.0342 2.59277 14.513C2.59277 13.43 3.47677 12.545 4.55977 12.545H6.52777V14.513L6.52677 14.514ZM7.51877 14.514C7.51877 13.431 8.40277 12.546 9.48577 12.546C10.5688 12.546 11.4538 13.431 11.4538 14.514V19.441C11.4522 19.9624 11.2443 20.4619 10.8755 20.8305C10.5068 21.1991 10.0071 21.4067 9.48577 21.408C8.96458 21.4064 8.46518 21.1987 8.09664 20.8301C7.7281 20.4616 7.52036 19.9622 7.51877 19.441V14.514ZM9.48577 6.52702C8.96475 6.52517 8.46561 6.31731 8.09729 5.9488C7.72896 5.58028 7.52135 5.08104 7.51977 4.56002C7.51977 3.47702 8.40377 2.59302 9.48677 2.59302C10.5698 2.59302 11.4548 3.47702 11.4548 4.56002V6.52802H9.48577V6.52702ZM9.48577 7.51902C10.5688 7.51902 11.4538 8.40302 11.4538 9.48602C11.4525 10.0076 11.2447 10.5074 10.8759 10.8761C10.5071 11.2449 10.0073 11.4527 9.48577 11.454H4.55977C4.03841 11.4524 3.53886 11.2446 3.17029 10.8758C2.80172 10.507 2.59409 10.0074 2.59277 9.48602C2.59277 8.40302 3.47677 7.51902 4.55977 7.51902H9.48677H9.48577ZM17.4728 9.48602C17.4728 8.40302 18.3578 7.51902 19.4408 7.51902C20.5238 7.51902 21.4078 8.40302 21.4078 9.48602C21.4065 10.0074 21.1988 10.507 20.8303 10.8758C20.4617 11.2446 19.9621 11.4524 19.4408 11.454H17.4728V9.48602V9.48602ZM16.4808 9.48602C16.4795 10.0074 16.2718 10.507 15.9033 10.8758C15.5347 11.2446 15.0351 11.4524 14.5138 11.454C13.9922 11.4527 13.4924 11.2449 13.1236 10.8761C12.7549 10.5074 12.5471 10.0076 12.5458 9.48602V4.56002C12.5458 3.47702 13.4308 2.59302 14.5138 2.59302C15.5968 2.59302 16.4808 3.47702 16.4808 4.56002V9.48702V9.48602ZM14.5138 17.473C15.5968 17.473 16.4808 18.358 16.4808 19.441C16.4792 19.9622 16.2714 20.4616 15.9029 20.8301C15.5344 21.1987 15.035 21.4064 14.5138 21.408C13.9924 21.4067 13.4928 21.1991 13.124 20.8305C12.7552 20.4619 12.5474 19.9624 12.5458 19.441V17.473H14.5138ZM14.5138 16.481C13.9924 16.4797 13.4928 16.2721 13.124 15.9035C12.7552 15.5349 12.5474 15.0354 12.5458 14.514C12.5458 13.431 13.4308 12.546 14.5138 12.546H19.4408C20.5238 12.546 21.4078 13.431 21.4078 14.514C21.4062 15.0352 21.1984 15.5346 20.8299 15.9031C20.4614 16.2717 19.962 16.4794 19.4408 16.481H14.5138V16.481Z" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right-footer">
+
+                        <div class="footer-col">
+                            <h1 class="footer-heading">Product</h1>
+                            <a href="#Features" class="footer-link">Features</a>
+                            <a href="#Testimonials" class="footer-link">Testimonials</a>
+                            <a href="#Pricing" class="footer-link">Pricing</a>
+                            <a href="#FAQ" class="footer-link">FAQs</a>
+                            <a href="" class="footer-link">Help and Guides</a>
+                            <a href="" class="footer-link">Sign Up</a>
+                        </div>
+                        <div class="footer-col">
+                            <h1 class="footer-heading">Company</h1>
+                            <a href="" target="_blank" class="footer-link">Team</a>
+                            <a href="" target="_blank" class="footer-link">Careers</a>
+                            <a href="" target="_blank" class="footer-link">Blog</a>
+                            <a href="" target="_blank" class="footer-link">Terms of Service</a>
+                            <a href="" target="_blank" class="footer-link">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
